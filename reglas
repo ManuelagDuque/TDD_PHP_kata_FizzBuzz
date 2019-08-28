@@ -1,0 +1,9 @@
+//Tiene que devolver Fizz cuando es divisible por 3
+//Tiene que devolver Buzz cuando es divisible por 5
+//Tiene que devolver FizzBuzz cuando es divisible por 3 y por 5
+
+// Defino el escenarioç
+// Ejecuto el escenario
+// Compruebo el escenario
+
+// No usar If porque dentro de un test no hay lógica

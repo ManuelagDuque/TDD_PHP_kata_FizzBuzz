@@ -3,16 +3,20 @@
 namespace FizzBuzz; //namespace=apellido
 class Kata //class=nombre
 {
-    private $divisor1 = 3;
-    private $fizz = "fizz";
-
     function devolverNumero($num)
-    { 
-        if ($num % $this->divisor1 == 0)
-        {
-            return $this->fizz;
+    {
+        if ($num % 15 == 0) {
+            return "FizzBuzz";
         }
-        return $num;
 
+        if ($num % 3 == 0) {
+            return "Fizz";
+        }
+
+        if ($num % 5 == 0) {
+            return "Buzz";
+        }
+
+        return $num;
     }
 }
